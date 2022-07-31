@@ -1,0 +1,24 @@
+html{
+    display: flex;
+    background: linear-gradient(180deg, rgba(189,138,209,1) 0%, rgba(106,46,193,1) 100%);
+    background-repeat: no-repeat;
+    height: -webkit-fill-available;
+    /*não consegui fazer a tela crescer com o conteúdo*/
+}
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    
+}
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+    margin: 5%;
+}
+.atribuicao {
+    padding: 10px;
+    font-size: 11px;
+    background: white;
+    border-radius: 15px;
+}

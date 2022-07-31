@@ -1,0 +1,136 @@
+.accordion__conteudo{
+    background: white;
+    border-radius: 30px;
+    padding-bottom: 30px;
+    width: 90%;
+    margin:auto;
+    box-shadow: 0px 26px 71px 0px rgba(0,0,0,0.89);
+}
+.ilustracao{
+    height: 170px;
+}
+.ilustracao__principal-mobile{
+    position: absolute;
+    width: 300px;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.ilustracao__principal-desktop{
+    display: none;
+}
+.ilustracao__principal-box-desktop{
+    display: none;
+}
+.ilustracao__sombra-mobile{
+    position: absolute;
+    width: 300px;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ilustracao__sombra-desktop{
+    display: none;
+}
+.accordion{
+    width: 80%;
+    overflow: hidden;
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.616);
+    padding: 10px 0px 15px 0px;
+    background: white;
+    margin: auto;
+ 
+}
+.accordion__titulo{
+    text-align: center;
+    font-weight: 700;
+    font-size: 38px;
+    padding: 4em 0px 1em 0px;
+    border-bottom: none;
+}
+input{
+    display: none;
+}
+label{
+    font-size: 15px;
+}
+/*para iniciar as respostas fechadas no acordeon*/
+.resposta{
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height .35s;
+  -o-transition: max-height .35s;
+  transition: max-height .35s;
+  font-size: 14px;
+  color: rgb(128, 128, 128);
+  line-height: 1.5em;
+}
+/*para abrir as respostas quando clicar na pergunta*/
+.accordion input:checked ~ .resposta {
+    max-height: 100vh;
+}
+/*a pergunta fica em negrito quando clicar*/
+.accordion input:checked ~ label{
+    font-weight: 700;
+}
+/*icone de setinha*/
+/*posição em relação a label*/
+.accordion label::after {
+    display: inline-block;
+    width: 1em;
+    height: 3em;
+    line-height: 3;
+    text-align: center;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+    /*não consegui colocar a setinha no final da linha como no design*/
+}
+/*imagem da setinha*/
+.accordion label::after{
+    content: url(../images/icon-arrow-down.svg);
+    padding: 3px;
+}
+/*pra deixar a setinha de cabeça pra baixo 180, para deixar de lado 90*/
+.accordion input:checked + label::after {
+    transform: rotate(180deg);
+}
+
+/*versão para desktop*/
+
+@media screen and (min-width:980px) {
+    .accordion__conteudo{
+        width: 80%;
+        height: auto;
+        align-self: center;
+        margin:10%;
+    }
+    .ilustracao{
+        display: inline;
+        height: 40vw;
+    }
+    .ilustracao__principal-mobile{
+        display: none;
+    }
+    .ilustracao__sombra-mobile{
+        display: none;
+    }
+    .ilustracao__principal-desktop{
+        position: absolute;
+        width: 70vw;
+        top: 16%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+    .accordion__titulo{
+        text-align: start;
+        width: 80%;
+        padding: 2em 0px 1em 0px;
+    }
+    footer{
+        width: 80%;
+        margin: 10%;
+    }
+}
