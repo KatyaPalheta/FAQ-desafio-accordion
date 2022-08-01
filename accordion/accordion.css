@@ -100,15 +100,30 @@ label{
 /*versão para desktop*/
 
 @media screen and (min-width:980px) {
+    .layout_desktop{
+    position: relative;
+    display: grid;
+    justify-self: center;
+    grid-template-columns: 40% 60%;
+    background: white;
+    border-radius: 30px;
+    padding-bottom: 30px;
+    width: 900px;
+    margin:100px auto 100px auto;
+    box-shadow: 0px 26px 71px 0px rgba(0,0,0,0.89);
+    overflow: hidden;
+    }
+   
     .accordion__conteudo{
-        width: 80%;
+        display: inline-block;
+        width: 800;
         height: auto;
         align-self: center;
         margin:10%;
+        box-shadow: none;
     }
     .ilustracao{
-        display: inline;
-        height: 40vw;
+        display: inline-block;
     }
     .ilustracao__principal-mobile{
         display: none;
@@ -117,20 +132,42 @@ label{
         display: none;
     }
     .ilustracao__principal-desktop{
+        display: inline;
         position: absolute;
-        width: 70vw;
-        top: 16%;
-        left: 50%;
+        width: 400px;
+        top: 45%;
+        left:18%;
         transform: translate(-50%, -50%);
         z-index: 1;
+    }
+    .ilustracao__sombra-desktop{
+        display: inline;
+        position: absolute;
+        width: 700px;
+        top: 45%;
+        left: 1%;
+        transform: translate(-50%, -50%);
+    }
+    .ilustracao__principal-box-desktop{
+        display: inline-block;
+        position: absolute;
+        margin-top:400px;
+        margin-left: 10px;
+        z-index: 2;
+        overflow: hidden;
     }
     .accordion__titulo{
         text-align: start;
         width: 80%;
         padding: 2em 0px 1em 0px;
+        margin: auto;
     }
     footer{
         width: 80%;
         margin: 10%;
+    }
+    .accordion input:hover ~ label{
+        font-weight: 700;
+        color: brown;
     }
 }
