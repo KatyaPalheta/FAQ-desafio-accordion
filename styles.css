@@ -2,9 +2,13 @@ body{
     font-family: 'Kumbh Sans', sans-serif;
     display: flex;
     flex-direction: column;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-position: center;
     background: linear-gradient(180deg, rgba(189,138,209,1) 0%, rgba(106,46,193,1) 100%);
     background-repeat: no-repeat;
-    height: -webkit-fill-available;
+    height:-webkit-fill-available;
     /*não consegui fazer a tela crescer com o conteúdo*/
     
 }
