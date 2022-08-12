@@ -8,3 +8,5 @@ O Usuário é capaz de:
 - Veja os estados de foco para todos os elementos interativos na página
 - Ocultar/Mostrar a resposta a uma pergunta quando a pergunta é clicada
 
+![exemplo 1](https://user-images.githubusercontent.com/109077065/184275342-b2f6cb37-e348-4de9-9b97-443105fd74fa.png)
+
