@@ -9,4 +9,5 @@ O Usuário é capaz de:
 - Ocultar/Mostrar a resposta a uma pergunta quando a pergunta é clicada
 
 ![exemplo 1](https://user-images.githubusercontent.com/109077065/184275342-b2f6cb37-e348-4de9-9b97-443105fd74fa.png)
+![exemplo 2](https://user-images.githubusercontent.com/109077065/184275444-acc0231f-d5f7-4062-b326-12b6fd6bc3fa.png)
 
