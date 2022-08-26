@@ -89,7 +89,7 @@ label{
 }
 /*imagem da setinha*/
 .accordion label::after{
-    content: url(../images/icon-arrow-down.svg);
+    content: url(/assets/images/icon-arrow-down.svg);
     padding: 3px;
 }
 /*pra deixar a setinha de cabeça pra baixo 180, para deixar de lado 90*/
