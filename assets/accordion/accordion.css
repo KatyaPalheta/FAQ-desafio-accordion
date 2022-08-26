@@ -12,7 +12,7 @@
 .ilustracao__principal-mobile{
     position: absolute;
     width: 300px;
-    top: 16%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;

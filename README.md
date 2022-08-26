@@ -1,4 +1,4 @@
-# FAQ-desafio-accordion
+# FAQ - ACORDION
  Desafio de projeto do site Frontend Mentor. Criação de FAQ com uso de acordeom para acessar as respostas.
 
 - Projeto iniciado com o desafio do portal Frontend Mentor
@@ -8,6 +8,65 @@ O Usuário é capaz de:
 - Veja os estados de foco para todos os elementos interativos na página
 - Ocultar/Mostrar a resposta a uma pergunta quando a pergunta é clicada
 
-![exemplo 1](https://user-images.githubusercontent.com/109077065/184275342-b2f6cb37-e348-4de9-9b97-443105fd74fa.png)
-![exemplo 2](https://user-images.githubusercontent.com/109077065/184275444-acc0231f-d5f7-4062-b326-12b6fd6bc3fa.png)
 
+## Índice
+
+- [Visão Geral](#visão-geral)
+  - [O desafio](#the-challenge)
+  - [Captura de tela](#captura-de-tela)
+  - [Links](#links)
+- [Meu processo](#meu-processo)
+  - [Construído com](#construído-com)
+  - [O que aprendi](#o-que-aprendi)
+  - [Desenvolvimento contínuo](#desenvolvimento-contínuo)
+- [Autor](#autor)
+- [Agradecimentos](#agradecimentos)
+
+## Visão geral
+
+Esse é um projeto desafio do portal FrontEnd Mentor, onde o conteúdo é interativo
+
+### O desafio
+
+Os usuários devem ser capazes de:
+
+- Clicar no enunciado da pergunta e o conteudo da resposta desliza pra baixo.
+- a tela aumenta conforme o tamanho do conteúdo
+- visualizar o conteúdo responsivel conforme o tamanho da tela
+
+### Captura de tela
+
+![exemplo 1](/assets/images/exemplo%201.png)
+![exemplo 2](/assets/images/exemplo%202.png)
+
+### Links
+
+- URL do site ao vivo: (<https://faq-desafio-accordion.vercel.app/>)
+
+## Meu processo
+
+Demorei cerca de 20h de trabalho para concluir o desafio
+
+### Construído com
+
+- Marcação HTML5 semântica
+- Propriedades personalizadas de CSS
+- Flexbox
+- Grade CSS
+
+### O que eu aprendi
+
+Aprendi bastante sobre transformação, evento de click e pseudo classes
+
+### Desenvolvimento contínuo
+
+Para o futuro vou aprofundar os estudos sobre transformação e animação com css
+
+## Autor
+
+- URL no front mentor: (<https://www.frontendmentor.io/profile/KatyaPalheta>)
+- Linkedin: (www.linkedin.com/in/katyapalheta)
+
+## Agradecimentos
+
+Agradeço a Alura, escola de programação, por ter sido minha fonte de conhecimento e minha amiga na trajetória de crescimento pessoal. Aos membros da comunidade Code, mentoria que está moldando minha mente para o mercado de trabalho. Especial agradecimento ao Professor Pedro MArins, mentor, que me inspira e motiva a não desistir. Obrigada pela força, professor.
